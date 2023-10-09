@@ -1,0 +1,15 @@
+@import "./abstracts/fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 2rem;
+  display: grid;
+  row-gap: 2rem;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}

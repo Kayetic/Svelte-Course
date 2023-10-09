@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shared Calendar</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.scss" />
+    <script
+      src="https://kit.fontawesome.com/7d2900409e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="month-switcher">
+        <button id="prevMonth" aria-label="Previous Month">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <button id="nextMonth" aria-label="Next Month">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </nav>
+      <div id="monthAndYear"></div>
+    </header>
+
+    <main class="calendarAndDays">
+      <section class="days">
+        <div class="day"><p>Mon</p></div>
+        <div class="day"><p>Tue</p></div>
+        <div class="day"><p>Wed</p></div>
+        <div class="day"><p>Thu</p></div>
+        <div class="day"><p>Fri</p></div>
+        <div class="day"><p>Sat</p></div>
+        <div class="day"><p>Sun</p></div>
+      </section>
+      <section id="calendar" class="grid">
+        <!-- Calendar content -->
+      </section>
+    </main>
+
+    <script src="../javascript/main.js"></script>
+  </body>
+</html>
